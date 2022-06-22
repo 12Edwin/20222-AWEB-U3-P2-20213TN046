@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">AWEB-U3-P2</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Unidad 1</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Unidad 2</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Unidad 3
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Repaso Unidad 2</a></li>
+                  <li><a class="dropdown-item" href="#">Servlet</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">JSP</a></li>
+                  <li><a class="dropdown-item" href="#">Conexión BD</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Extraordinario</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row p-2">
+            <div  class="col-lg-4 col-md-4 p-5">
+                <div class="p-0 border bg-light rounded">
+                    <img src="https://cdn.pixabay.com/photo/2015/03/14/19/45/suit-673697_960_720.jpg" class="rounded mx-auto d-block img-fluid" alt="">
+                    <div class="text-wrap p-2">
+                      <p class="fw-light" >Banner is a simple example 
+                        showing how to create a banner using a row of text types and a NumberAnimation. 
+                        Img Tag. Img tag shows different ways of displaying images
+                      </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 p-5">
+                <div class="p-0 border bg-light rounded">
+                    <img src="https://cdn.pixabay.com/photo/2015/01/20/12/51/mobile-605422_960_720.jpg" class="rounded mx-auto d-block img-fluid" alt="">
+                    <div class="text-wrap p-2">
+                      <p class="fw-light" >Banner is a simple example 
+                        showing how to create a banner using a row of text types and a NumberAnimation. 
+                        Img Tag. Img tag shows different ways of displaying images
+                      </p>
+                    </div>
+                  </div>     
+            </div>
+            <div class="col-lg-4 col-md-4 p-5">
+                <div class="p-0 border bg-light rounded">
+                  <img src="https://cdn.pixabay.com/photo/2015/07/17/22/44/student-849828_960_720.jpg" class="rounded mx-auto d-block img-fluid" alt="">
+                  <div class="text-wrap p-2">
+                    <p class="fw-light" >Banner is a simple example 
+                      showing how to create a banner using a row of text types and a NumberAnimation. 
+                      Img Tag. Img tag shows different ways of displaying images
+                    </p>
+                  </div>
+                </div>    
+            </div>
+        </div>
+        <div class="container p-5">
+          <h1>Personas registradas</h1>
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Apellido</th>
+                <th scope="col">Edad</th>
+                <th scope="col">Acciones</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>José</td>
+                <td>Narváez</td>
+                <td>30</td>
+                <td><button type="button" class="btn btn-info fw-semibold">Modificar</button></td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Christian</td>
+                <td>Figueroa</td>
+                <td>29</td>
+                <td><button type="button" class="btn btn-info fw-semibold">Modificar</button></td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Miguel</td>
+                <td>Jiménez</td>
+                <td>19</td>
+                <td><button type="button" class="btn btn-info fw-semibold">Modificar</button></td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>Oscar</td>
+                <td>Moreno</td>
+                <td>26</td>
+                <td><button type="button" class="btn btn-info fw-semibold">Modificar</button></td>
+              </tr>
+              <tr>
+                <th scope="row">5</th>
+                <td>Araceli</td>
+                <td>Nuño</td>
+                <td>26</td>
+                <td><button type="button" class="btn btn-info fw-semibold">Modificar</button></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
